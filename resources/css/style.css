@@ -74,3 +74,59 @@ header a {
   flex-grow: 1;
   background-color: black;
 }
+
+/* Products */
+
+.products {
+  padding-top: 70px;
+  width: 1000px;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item {
+  padding: 5px;
+}
+
+.item img {
+  display: block;
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+}
+
+.item span {
+  display: block;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
+}
+
+/* Locations */
+
+.locations {
+  margin-top: 70px;
+  height: 500px;
+  width: 1200px;
+  background-image: url(../images/img-locations-background.jpg);
+  padding-top: 70px;
+}
+
+.addresses {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.address {
+  display block;
+  width: 300px;
+  margin: 15px 20px;
+  background-color: black;
+  opacity: 1;
+  padding: 20px;
+}
