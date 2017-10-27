@@ -7,3 +7,43 @@ body {
   opacity: 0.9;
   text-align: center;
 }
+
+/* Header */
+
+header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 69px;
+  position: fixed;
+  z-index: 1;
+  border-bottom: 1px solid seashell;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  padding-left: 10px;
+}
+
+.logo img {
+  width: auto;
+  height: 50px;
+}
+
+header nav {
+  display: flex;
+  padding-right: 10px;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+header a {
+  color: white;
+  text-decoration: underline;
+}
+
+/* Content */
